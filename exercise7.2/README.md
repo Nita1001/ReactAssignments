@@ -1,3 +1,3 @@
 Exercise Snippet
 
-![image](https://user-images.githubusercontent.com/110332364/219027602-c5974214-f1ab-44e2-84dd-6e26e7a06f4d.png)
+![image](https://user-images.githubusercontent.com/110332364/219027999-d5c8d764-47fd-45aa-8610-d86796666442.png)
