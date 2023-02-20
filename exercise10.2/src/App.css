@@ -1,0 +1,27 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1200px;
+}
+
+Img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.blackAndWhite{
+  filter: grayscale(100%);
+
+}
