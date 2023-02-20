@@ -1,0 +1,49 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  animation: slide 9s;
+}
+
+@keyframes slide {
+    from {
+        left: -90px;
+    }
+    to {
+        left: 0;
+    }
+}
+
+.box {
+    position: relative;
+    border:solid rgba(255, 235, 205, 0.626);
+    background-color: rgba(0, 0, 255, 0.432);
+}
+.b {
+  width: 90px;
+  height: 90px;
+}
+.b1 {
+  width: 60px;
+  height: 60px;
+}
+.b2 {
+  width: 30px;
+  height: 30px;
+}
+
+.b5{
+  background-color: pink;
+  width: 30px;
+  height: 30px;
+ 
+
+}
