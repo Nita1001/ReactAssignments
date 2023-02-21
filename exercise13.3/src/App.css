@@ -1,0 +1,46 @@
+.App-header {
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color1 {
+  background-color: #0a0a0a;
+}
+.color2 {
+  background-color: #826676;
+}
+.color3 {
+  background-color: #800834;
+}
+.color4 {
+  background-color: #c72b41;
+}
+.color5 {
+  background-color: #ee4540;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.199);
+}
