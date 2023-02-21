@@ -11,11 +11,9 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       if (counter <= 5) {
-        setTimeout(() => {
           setCounter(prevCounter => prevCounter + 1);
           setColor(`box ${colors[counter]}`);
           colorRef.current = `box ${colors[counter]}`;
-        }, 250);
       } else {
         colorRef.current = 'circle';
       }
