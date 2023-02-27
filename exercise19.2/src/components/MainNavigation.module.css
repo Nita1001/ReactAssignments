@@ -1,0 +1,58 @@
+header {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.listDay {
+    gap: 1.4rem;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.listDay a {
+    list-style: none;
+    color: rgb(56, 95, 130);
+    text-decoration: none;
+}
+
+.listDay a:hover,
+.listDay a:active {
+    opacity: 0.69;
+    color: rgb(64, 79, 219);
+    padding-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.listNight {
+    gap: 1.4rem;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+.listNight a {
+    list-style: none;
+    color: rgb(47, 136, 136);
+    text-decoration: none;
+    font-weight: bold;
+}
+.listNight a:hover,
+.listNight a:active {
+    opacity: 0.69;
+    color: rgb(103, 191, 151);
+    padding-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.dayBtn {
+    border: solid salmon;
+}
+
+.nightBtn {
+    border: solid cyan;
+}
