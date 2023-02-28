@@ -1,0 +1,17 @@
+div .container {
+    display: flex;
+    height: 20rem;
+    margin-top: 2rem;
+    align-items: center;
+    border-radius: 1rem;
+    justify-content: center;
+    background-color: rgba(236, 196, 146, 0.9);
+    font-family: "Courier New", Courier, monospace;
+}
+
+div .labelContainer {
+    gap: 0.4rem;
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: column;
+}
